@@ -1,4 +1,4 @@
-package leetcode
+package bst
 
 type Node struct {
 	value int

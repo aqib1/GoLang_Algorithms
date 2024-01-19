@@ -1,4 +1,4 @@
-package leetcode
+package bst
 
 type KthLargest struct {
 	root *Node

@@ -1,4 +1,4 @@
-package leetcode
+package bst
 
 func deleteNode(root *TreeNode, key int) *TreeNode {
 	if root == nil {

@@ -1,4 +1,4 @@
-package leetcode
+package bst
 
 // Time complexity OLog(N) or O(h)
 // Space complexity OLog(N) or O(h)
