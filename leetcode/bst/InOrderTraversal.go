@@ -7,7 +7,7 @@ func inorderTraversal(root *TreeNode) []int {
 }
 
 // Time complexity O(n)
-// Space complexity OLog(n)
+// Space complexity O(n)
 func inorder(root *TreeNode, data *[]int) {
 	if root == nil {
 		return
