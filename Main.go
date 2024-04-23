@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+var globalMessage = "I am a global message"
+
 func main() {
 	var message string = "Hello World"              // type declaration
 	var inferredMessage = "I am inferred string"    // type inferred declaration
@@ -22,4 +24,5 @@ func main() {
 	fmt.Println(c2)
 	fmt.Println(c3)
 	fmt.Println(c4)
+	fmt.Println(globalMessage)
 }
