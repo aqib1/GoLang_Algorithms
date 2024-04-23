@@ -11,6 +11,7 @@ const (
 
 func main() {
 	fmt.Println(PI)
-	fmt.Println(NAME)
-	fmt.Println(LASTNAME)
+	fmt.Print(NAME, "\n")
+	fmt.Printf("%v\n", LASTNAME) // %v is used to print value of LASTNAME which is JAVED
+	fmt.Printf("%T", LASTNAME)   // %T is used to print type of LASTNAME which is string
 }
