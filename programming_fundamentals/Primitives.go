@@ -11,5 +11,10 @@ func main() {
 	fmt.Println(name != name1)
 	fmt.Println(name2)
 	name2 = "Maria"
-	fmt.Println(name2)
+	numberFloat := 37863.5557527
+	fmt.Printf("My name is %T\n", name2)
+	fmt.Printf("you scored %0.2f\n", numberFloat)
+
+	var formatedStr = fmt.Sprintf("you scored %0.2f\n", numberFloat)
+	fmt.Println("Saved string is = ", formatedStr)
 }
