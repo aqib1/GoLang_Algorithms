@@ -16,6 +16,7 @@ func largestLocal(grid [][]int) [][]int {
 	for i := 0; i < len(grid)-2; i++ {
 		for j := 0; j < len(grid[i])-2; j++ {
 			result[i] = append(result[i], getMaxNumber(grid, i, j))
+
 		}
 	}
 
