@@ -1,11 +1,5 @@
 package leetcode
 
-type TreeNode struct {
-	Val   int
-	Right *TreeNode
-	Left  *TreeNode
-}
-
 // Time complexity OLog(N)
 // Space complexity O(1)
 func lowestCommonAncestorIterative(root, p, q *TreeNode) *TreeNode {

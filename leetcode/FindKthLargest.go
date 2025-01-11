@@ -1,12 +1,5 @@
 package leetcode
 
-type Node struct {
-	value int
-	left  *Node
-	right *Node
-	count int
-}
-
 type KthLargest struct {
 	root *Node
 	k    int
