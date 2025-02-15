@@ -1,4 +1,4 @@
-package recursion
+package main
 
 // using tail recursion and accumolators
 
